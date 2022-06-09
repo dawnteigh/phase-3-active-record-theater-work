@@ -1,0 +1,10 @@
+r = Role.create(character_name: "Bob")
+r2 = Role.create(character_name: "Sue")
+r3 = Role.create(character_name: "Leslie")
+
+r.auditions.create(actor: 'steve', location: "LA", phone: 5, hired: false)
+r.auditions.create(actor: 'steph', location: "NYC", phone: 4, hired: false)
+r2.auditions.create(actor: 'bill', location: "LA", phone: 5, hired: false)
+r2.auditions.create(actor: 'sam', location: "NYC", phone: 4, hired: false)
+r3.auditions.create(actor: 'jill', location: "LA", phone: 5, hired: false)
+r3.auditions.create(actor: 'max', location: "NYC", phone: 4, hired: false)
